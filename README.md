@@ -1,3 +1,5 @@
+![banner](./img/banner.png)
+
 # Open Minecraft Players
 
 This repository contains a list of 6.7M real UUIDs of Minecraft players.
@@ -22,7 +24,7 @@ for i in range(0, uuids.count):
 You can use `ompt` tool from [Releases](https://github.com/open-minecraft/players/releases) if you want...
 - ...to [check](#checking-uuid) if some uuid is in the list
 - ...to [add](#adding-uuid) a new uuid
-- ...to [humanize](#humanize-file-content) file content
+- ...to [humanize](#humanizing) file content
 
 ### Checking UUID
 
