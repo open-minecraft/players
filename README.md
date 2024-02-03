@@ -16,7 +16,7 @@ file = open("players.bin", mode: 'binary')
 uuids = array[ file.bytes / 16 ]
 
 for i in range(0, uuids.count):
-  array[i] = uuid.fromBytes(file.readBytes(16))
+  uuids[i] = uuid.fromBytes(file.readBytes(16))
 ```
 
 ## Tools
